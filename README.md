@@ -13,7 +13,7 @@ description: >-
 
 ## **July 2019**
 
-### \*\*\*\*[**Which Azure Region is Right to Deploy Cloud Services?**](https://blog.krishkothapalli.com/azure-cloud-articles/which-azure-region-is-right-to-deploy-cloud-services)\*\*\*\*
+### \*\*\*\*[**Twilio Signal Recap 2019** ](https://app.gitbook.com/@azcloudexpert/s/blog/~/drafts/-Lln_aY2wISjaPQQLD-K/primary/conferences/conferences)\*\*\*\*
 
-\*\*\*\*
+### \*\*\*\*[**Which Azure Region is Right to Deploy Cloud Services?**](https://blog.krishkothapalli.com/azure-cloud-articles/which-azure-region-is-right-to-deploy-cloud-services)
 

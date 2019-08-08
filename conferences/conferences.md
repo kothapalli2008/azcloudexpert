@@ -1,4 +1,4 @@
-# Conferences
+# Twilio Signal 2019 Recap
 
 We are just back from the Twilio Signal 2019 conference in San Francisco. With over 3000 people attending, it was a huge event and crossing the golden gate bridge reminded me the most beautiful bridge in the world. Twilio has announced that they are going to run signal in Moscone Center in SFO  in 2020 and I bet they’ve received a ton of advice from attendees that will help to make the 2020 event better.
 
