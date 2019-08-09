@@ -1,8 +1,9 @@
 # Table of contents
 
-* [Krish Kothapalli Blog](README.md)
+* [Krish Kothapalli](README.md)
 * [About](about.md)
 * [Resume](resume.md)
+* [Contact](contact.md)
 
 ## Azure Cloud Articles
 
@@ -12,4 +13,6 @@
 ## Conferences
 
 * [Twilio Signal 2019 Recap](conferences/conferences.md)
+
+## Guides
 

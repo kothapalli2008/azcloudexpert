@@ -5,7 +5,7 @@ description: >-
   of America.
 ---
 
-# Krish Kothapalli Blog
+# Krish Kothapalli
 
 ## **Coming Soon** 
 
