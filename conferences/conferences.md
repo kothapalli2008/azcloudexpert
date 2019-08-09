@@ -12,17 +12,23 @@ It’s a company **“By Developers for Developers”** with over  160,000 custo
 
 **Mega Trends for 2020 \| Twilio CEO**
 
-The era of web apps and mobile apps is winding down and what next? Is it Alexa, Google Home, Sri or Bot what is it?
+The era of web apps and mobile apps is winding down and what next? Is it Alexa, Google Home, Sri or Bot what is it? its era of conversations - Jeff 
+
+Conversation are eating apps as the most compelling, easiest to use and ways to engage with the customers to do business with.
 
 After seeing the patterns from 160,000 companies Twilio learned that customers are actually trying to reach back with their questions but 75 % companies haven’t configured the inbound handlers to answer the questions. We are one among them and not listening to customer questions through channels.
 
-For Example we sent a text message and the customer replied with blah blah  and companies never replied back again. Interestingly when Twilio launches WhatsApp Api  51 % of the customers replied and shared the Nordstrom story of customer engagement by text messages as conversation.
+For Example we sent a text message and the customer replied with blah blah  we never replied back again to customer which  we can able to fix this with technology. Interestingly when Twilio launches WhatsApp Api  51 % of the customers replied and shared the Nordstrom story of customer engagement by text messages as conversation.
 
-Amazon, Grub hub, Shopify, Lyft, Uber, Marriot and lot more companies already start creating this conversational experiences through messages.
+Amazon, Grub hub, Shopify, Lyft, Uber, Marriot and lot tech companies already started creating this sophisticated workflows through messages and other channels.
+
+Most importantly  lot of changes were made to RCS. which was never happened in the last 40 years of telecom industry.
 
 **Adding a Verified Called ID \| Keynote**
 
-A Twilio Study found that 9 out 10 customers globally want to message with brands and
+A Twilio Study found that more than 75% of the calls they receive on their cell are not answered due to rise in spam and robocalls.To prevent this happening twilio empowers the consumers to know  who is calling them and why, giving them the confidence to answer the phone again and the same way with the text as well with verified by twilio branding. For more information [twilio.com/verified-calls](https://t.co/Jo1nnvqnm9?amp=1).
+
+![](../.gitbook/assets/screen-shot-2019-08-08-at-7.30.10-pm.png)
 
 **Modern Cloud Contact Center \| Live Demo**
 
