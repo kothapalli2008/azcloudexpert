@@ -40,6 +40,8 @@ Offering Flex application platform which drives the 500% more customer interacti
 
 Some of the best tech giants  like ecommerce platform shopify built and contact center MVP in 4 weeks and went to production to 4 months which reduces the operations and handle time by 30%. Lyft Contact center experience also built on top of flex which solves the problem of Omni channel and getting the customer information upfront reduces the call time.
 
+[Watch Video](https://www.youtube.com/watch?v=7IwA-Z7AzX0)
+
 **Twilio CLI \| Live Demo**
 
 Simplifies the lot of Operational effort and simplifies the developer to code faster on Twilio platform. It an open source tool which is completely extensible and build our own modules.
