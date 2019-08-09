@@ -1,6 +1,6 @@
 # Twilio Signal 2019 Recap
 
-We are just back from the Twilio Signal 2019 conference in San Francisco. With over 3000 people attending, it was a huge event and crossing the golden gate bridge reminded me the most beautiful bridge in the world. Twilio has announced that they are going to run signal in Moscone Center in SFO  in 2020 and I bet they’ve received a ton of advice from attendees that will help to make the 2020 event better.
+We are just back from the Twilio Signal 2019 conference in San Francisco. With over 3000 people attending, it was a huge event and crossing the golden gate bridge reminded me the most beautiful bridge in the world. Twilio has announced that they are going to run signal Moscone Center  in 2020 and I bet they’ve received a ton of advice from attendees that will help to make the 2020 event better.
 
 Twilio usually focuses on the main keynote, sub keynotes, and product keynotes. This year conference started with Jeff Lawson CEO vision keynote. This year’s main theme was “Don’t talk about code, show it”. I love attending and listening to Jeff & Other Industry Experts from Netflix, Lyft, Door Dash, Shopify and many more companies vision toward communications and providing awesome customer experience and after the keynotes I have attended the programmable sms, voice and cloud contact center platforms workshops and tech booths.
 
@@ -26,7 +26,11 @@ Most importantly  lot of changes were made to RCS. which was never happened in t
 
 **Adding a Verified Called ID \| Keynote**
 
-A Twilio Study found that more than 75% of the calls they receive on their cell are not answered due to rise in spam and robocalls.To prevent this happening twilio empowers the consumers to know  who is calling them and why, giving them the confidence to answer the phone again and the same way with the text as well with verified by twilio branding. For more information [twilio.com/verified-calls](https://t.co/Jo1nnvqnm9?amp=1).
+A Twilio Study found that more than 75% of the calls they receive on their cell are not answered due to rise in spam and robocalls.To prevent this happening twilio empowers the consumers to know  who is calling them and why, giving them the confidence to answer the phone again and the same way with the text as well with verified by twilio branding. 
+
+Verified By Twilio displays company branding and a reason for the call right in front of the consumer, giving them confidence in answering. its a pretty innovative service in the communication industry which will get more customer engagement.
+
+For more information [twilio.com/verified-calls](https://t.co/Jo1nnvqnm9?amp=1).
 
 ![](../.gitbook/assets/screen-shot-2019-08-08-at-7.30.10-pm.png)
 
@@ -49,6 +53,8 @@ Introduced the real-time Email Validation API which validates email address befo
 During this workshop, Rob Brazier \(Sr. Director of Product, Twilio Flex\) did an introductory dive into Twilio Flex and covering how we can build, deploy and iterate the customer experience using a programmable contact center platform. Followed by the Shopify dev team to share how they have deployed an automated authentication process for 1,500 support agent using Twilio Flex all over the world.
 
 **Connect “things” to the cloud with Cellular IoT \| Workshop**
+
+Learned best practices to connect and authenticate an IoT device against Azure IoT Hub/Central and even push telemetry data with zero\* configuration through cellular network.
 
 **Wrap-up**
 
