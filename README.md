@@ -17,3 +17,5 @@ description: >-
 
 ### \*\*\*\*[**Which Azure Region is Right to Deploy Cloud Services?**](https://blog.krishkothapalli.com/azure-cloud-articles/which-azure-region-is-right-to-deploy-cloud-services)
 
+
+
