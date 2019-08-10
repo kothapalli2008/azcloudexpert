@@ -12,7 +12,7 @@ A region is a geographical area on the planet containing at least one, but poten
 
 For most Azure services, when you deploy a resource in Azure, you choose the region where you want your resource to be deployed. A few examples of regions are South Central Us, North Central US, Central US. Azure has more global regions than any other cloud provider. This provides the flexibility and scale needed to bring applications closer to users around the world , preserving data residency and offering comprehensive compliance and resiliency options for customer. At the time of writing this, Azure is generally available in 54 regions around the world, with plans announced for 6 additional regions.
 
-![](../.gitbook/assets/screen-shot-2019-07-30-at-9.56.22-pm.png)
+![](../../.gitbook/assets/screen-shot-2019-07-30-at-9.56.22-pm.png)
 
 ### Region Pairs 
 
