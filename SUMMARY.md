@@ -16,3 +16,5 @@
 
 ## Guides
 
+* [Virtual Photo Booth](guides/virtual-photo-booth.md)
+
