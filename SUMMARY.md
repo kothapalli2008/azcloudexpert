@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Krish Kothapalli](README.md)
-* [About](about.md)
-* [Resume](resume.md)
-* [Contact](contact.md)
+* [About](about/README.md)
+  * [Resume](about/resume.md)
+  * [Contact](about/contact.md)
 
 ## Azure Cloud Articles
 
