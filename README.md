@@ -1,8 +1,8 @@
 ---
 description: >-
-  With almost 8+ years of experience in the IT industry, Krish is a certified 
-  Microsoft Azure Expert and working as Cloud Solution Architect at Visionworks
-  of America.
+  With almost 8+ years of experience in the IT industry, Krish is a microsoft
+  certified solutions expert (cloud service & platform) and working as Cloud
+  Solution Architect at Visionworks of America.
 ---
 
 # Krish Kothapalli
