@@ -20,6 +20,8 @@ Today we will trigger a azure devops pipelines using a Flic button. We will star
 
 Here's a diagram of what we'll be doing:
 
+![](../.gitbook/assets/image%20%281%29.png)
+
 ### Create Azure Devops Account !
 
 ### Create Demo Project 
