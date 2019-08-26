@@ -1,14 +1,13 @@
 ---
-description: >-
-  A guide to trigger your build & release  pipelines with Azure Devops & flic 
-  button.
+description: A guide to  build servers and databases with Azure Devops & flic button.
 ---
 
-# Finally, a simple push of a smart button is all you need to trigger release pipelines
+# create servers with smart flic button in azure
 
-Today we will trigger a pipeline using :
+Today we will build a server and databases using :
 
 * Azure Devops
+* ARM Templates
 * A Flic Button
 
 If you don't own a Flic Button, [you can purchase one here](https://flic.io/shop/flic-1pack).
@@ -20,6 +19,20 @@ Before we begin, if you're looking for a quick summary and overview on Azure Dev
 Today we will trigger a azure devops pipelines using a Flic button. We will start by creating a release pipelines using azure devops. Then we will create a flic account, create flic actions to trigger release pipeline
 
 Here's a diagram of what we'll be doing:
+
+### Create Azure Devops Account !
+
+### Create Demo Project 
+
+### Author ARM Templates 
+
+### Create your First CI&CD Pipelines 
+
+### Lets Trigger a pipeline using Flic Button 
+
+
+
+
 
 
 

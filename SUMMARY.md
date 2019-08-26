@@ -10,6 +10,6 @@
 * [Conference](conference/README.md)
   * [Twilio Signal 2019 Recap](conference/conferences-1.md)
 * [Guides](guides/README.md)
-  * [Finally, a simple push of a smart button is all you need to trigger release pipelines](guides/finally-a-simple-push-of-a-smart-button-is-all-you-need-to-trigger-release-pipelines.md)
+  * [create servers with smart flic button in azure](guides/finally-a-simple-push-of-a-smart-button-is-all-you-need-to-trigger-release-pipelines.md)
   * [Virtual Photo Booth](guides/virtual-photo-booth.md)
 
