@@ -18,7 +18,7 @@ The era of web apps and mobile apps is winding down and what next? Is it Alexa, 
 
 Conversation are eating apps as the most compelling, easiest to use and ways to engage with the customers to do business with.After seeing the patterns from 160,000 companies Twilio learned that customers are actually trying to reach back with their questions but 75 % companies haven’t configured the inbound handlers to answer the questions. We are one among them and not listening to customer questions through channels.
 
-![](../.gitbook/assets/0-4%20%281%29.jpeg)
+![](../.gitbook/assets/0-4.jpeg)
 
 For Example we sent a text message and the customer replied with blah blah  we never replied back again to customer which  we can able to fix this with technology. Interestingly when Twilio launches WhatsApp Api  51 % of the customers replied and shared the Nordstrom story of customer engagement by text messages as conversation.
 
