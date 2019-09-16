@@ -2,7 +2,7 @@
 description: A guide to  build servers and databases with Azure Devops & flic button.
 ---
 
-# Create servers with smart flic button in azure
+# Create servers with flic button in azure
 
 Today we will build a server and databases using :
 
