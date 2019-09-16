@@ -18,11 +18,11 @@ Of course, to do that we need to have:
   * Once you login in the app, on the phone tab, click “Add Flic to Phone” at the bottom of the screen.
 * ![](../.gitbook/assets/image%20%281%29.png) ****
 * Once the “**Searching for Flics**” screen appears, take or physical button an click it once to pair it with the mobile application
-* ![](../.gitbook/assets/image%20%2818%29.png) 
-* Once the “**Pairing complete!**” screen appears, your button will be successfully paired with your phone. Click “**Finish” to complete**.
 * ![](../.gitbook/assets/image%20%2819%29.png) 
+* Once the “**Pairing complete!**” screen appears, your button will be successfully paired with your phone. Click “**Finish” to complete**.
+* ![](../.gitbook/assets/image%20%2820%29.png) 
 * And a button will be added to the “**Phone**” tab
-* ![](../.gitbook/assets/image%20%2816%29.png) 
+* ![](../.gitbook/assets/image%20%2817%29.png) 
 * Now that the physical button is pair with our mobile phone, we need to configure the Flic’s events that the button will be triggering. For each button we can specify 3 types of events:
   * click \(one quick press\)
   * double-click \(two quick presses\)
@@ -34,7 +34,8 @@ Of course, to do that we need to have:
     * And then configure one or all the 3 trigger events
 * In our case, we will configure the “Click” trigger event to be able to trigger a Microsoft Flow. For that, we need to click on the “**Click**” option
 * In our case, we will configure the “**Click**” trigger event to be able to trigger a Microsoft Flow. For that, we need to click on the “**Click**” option
-* 
+* ![](../.gitbook/assets/image%20%2814%29.png) 
+
 
 
 
