@@ -10,7 +10,7 @@
 * [Conference](conference/README.md)
   * [Twilio Signal 2019 Recap](conference/conferences-1.md)
 * [Guides](guides/README.md)
-  * [Trigger Azure DevOps Pipelines with Flic button](guides/trigger-azure-devops-pipelines-with-flic-button.md)
+  * [Trigger Deployment Pipelines with Flic button](guides/trigger-azure-devops-pipelines-with-flic-button.md)
   * [Author ARM Templates with Visual Studio](guides/author-arm-templates-with-visual-studio.md)
   * [Create servers with flic button in azure](guides/finally-a-simple-push-of-a-smart-button-is-all-you-need-to-trigger-release-pipelines.md)
   * [Virtual Photo Booth](guides/virtual-photo-booth.md)

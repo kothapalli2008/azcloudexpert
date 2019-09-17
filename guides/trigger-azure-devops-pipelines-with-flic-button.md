@@ -5,7 +5,7 @@ description: >-
   PowerShell.
 ---
 
-# Trigger Azure DevOps Pipelines with Flic button
+# Trigger Deployment Pipelines with Flic button
 
 In some situations, it can be useful to share the knowledge of what technology can do especially at your work environment. I found these nice buttons while watching the twitch sessions with azure functions and Twilio. Flic is already a nice integration with GitHub, Philips Hue and many more but I don't see integration with Azure DevOps and Pipelines 
 
