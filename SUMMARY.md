@@ -12,7 +12,7 @@
 * [Azure Cloud](azure-cloud/README.md)
   * [Which Azure Region is Right to Deploy Cloud Services?](azure-cloud/which-azure-region-is-right-to-deploy-cloud-services.md)
   * [Azure DevTest Labs at Enterprise Scale](azure-cloud/azure-devtest-labs-at-enterprise-scale.md)
-* [Conference](conference/README.md)
+* [Conferences](conference/README.md)
   * [Twilio Signal 2019 Recap](conference/conferences-1.md)
 * [Guides](guides/README.md)
   * [Setting up Mock API with Azure Function Proxies](guides/setting-up-mock-api-with-azure-function-proxies.md)
