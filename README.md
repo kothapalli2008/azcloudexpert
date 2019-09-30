@@ -7,9 +7,19 @@ description: >-
 
 # Krish Kothapalli
 
-## **Coming Soon** 
+{% page-ref page="about/" %}
 
-### \*\*\*\*[**Azure DevTest Labs at Enterprise Scale**](https://blog.krishkothapalli.com/azure-cloud-articles/azure-devtest-labs-at-enterprise-scale)
+{% page-ref page="reference-architectures/" %}
+
+{% page-ref page="azure-cloud/" %}
+
+{% page-ref page="conference/" %}
+
+{% page-ref page="guides/" %}
+
+{% page-ref page="./" %}
+
+{% page-ref page="about/contact.md" %}
 
 ## **July 2019**
 
