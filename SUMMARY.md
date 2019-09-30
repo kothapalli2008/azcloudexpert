@@ -4,6 +4,7 @@
 * [About](about/README.md)
   * [Resume](about/resume.md)
   * [Contact](about/contact.md)
+* [Reference Architectures](reference-architectures.md)
 * [Azure Cloud](azure-cloud/README.md)
   * [Which Azure Region is Right to Deploy Cloud Services?](azure-cloud/which-azure-region-is-right-to-deploy-cloud-services.md)
   * [Azure DevTest Labs at Enterprise Scale](azure-cloud/azure-devtest-labs-at-enterprise-scale.md)
