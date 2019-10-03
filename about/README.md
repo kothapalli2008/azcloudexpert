@@ -6,3 +6,17 @@ _He has spent most of his time working with the Microsoft technology stack and a
 
 Krish is a microsoft certified solution expert \(azure platform & services\) and experienced cloud strategist offering with proven success driving architect solutions across business and IT divisions to support the technology strategy and overall cloud readiness.
 
+## **Certifications**
+
+{% embed url="https://www.youracclaim.com/badges/98cc5d15-ffa2-4618-990c-cd022da9d37d/linked\_in\_profile" caption="MCSE: Cloud Platform and Infrastructure — Certified 2018" %}
+
+{% embed url="https://www.youracclaim.com/badges/f4375af2-b48a-40c6-99ac-0eac3a6fc5be/linked\_in\_profile" caption="Microsoft Certified Trainer 2019-2020" %}
+
+{% embed url="https://www.youracclaim.com/badges/81f5b1a8-f5ed-427e-ba69-eb01286e65b0/linked\_in\_profile" caption="MCSA: Cloud Platform - Certified 2018" %}
+
+\*\*\*\*
+
+\*\*\*\*
+
+\*\*\*\*
+
