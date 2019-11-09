@@ -5,13 +5,13 @@ description: >-
   PowerShell.
 ---
 
-# Trigger Deployment Pipelines with Flic button
+# Trigger Blue/Green deployment Pipelines with Flic button
 
 In some situations, it can be useful to share the knowledge of what technology can do, especially at your work environment. I found these cute buttons while watching the twitch sessions with azure functions and Twilio. Flic is already an excellent integration with GitHub, Philips Hue and many more but I don't see integration with Azure DevOps and Pipelines.
 
 My goal here is to trigger an Azure DevOps pipeline with a single click. Triggering a pipeline can be done via Azure DevOps rest API and through Powershell.
 
-With this task you can trigger a build or release pipeline using flic button \(1 click to start deploying web app, double-click to start deploying database\)
+With this task you can trigger a build or release pipeline using flic button \(1 click to start green deployment , double-click to start blue database\)
 
 Of course, to do that we need to have:
 
@@ -68,7 +68,7 @@ Now the only thing that is missing is for us to create a Flow that will be assoc
 * on the create a new release, you need to specify
   * The project name of the Azure Devops on the "Account name"
   * The projectname is "**flicdemo**"
-  * And the release definationid is set to your green deployment.
+  * And the release definationid is set to your blue deployment.
   * ![](../.gitbook/assets/image%20%2815%29.png) 
   * Be sure you **save it**.
   * Now… PRESS THE BUTTON! PRESS THE BUTTON!
