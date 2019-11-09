@@ -66,49 +66,109 @@ _Capture module_ is initialized by any incoming message to it's input. It connec
 
 ### Processing captures
 
-As stated for data ingress I have used Azure IoT Hub Service, which is able to ingress millions of messages per second, and thus gives a lot of space to scale this solution and support communication thousands of alarm devices. Besides receiving of messages I used IoT Hub to easily communicate to device \(as stated in previous section\). Initial data processing is done thru Stream Analytics Service. It also filter messages, which contain image reference and writes these messages to storage blob, where it gets picked up by Azure function.
+As stated for data ingress I have used Azure IoT Hub Service, which is able to ingress millions of messages per second, and thus gives a lot of space to scale this solution and support communication thousands of IoT edge devices. Besides receiving of messages I used IoT Hub to easily communicate to device \(as stated in previous section\). Initial data processing is done thru Stream Analytics Service. It also filter messages, which contain image reference and writes these messages to storage blob, where it gets picked up by Azure function.
 
 #### Processing Capture function
 
-Captured photos are being picked up by PhotoBooth_Processor_ - C\# Azure Function, which gets triggered by every new file uploaded to storage container. First Capture Processor transforms the picture using Cloudinary API. Subsequently it sends SMS using Twilio service  and displayed on the TV using Azure SignalR service.
+Captured photos are being picked up by Photo_Processor_ - C\# Azure Function, which gets triggered by every new file uploaded to storage container. First Capture Processor transforms the picture using Cloudinary API. Subsequently it sends SMS using Twilio service  and displayed on the TV using Azure SignalR service. For more information on the SignalR and the front end  follow here : **https://github.com/asubramnaian/projectname**
 
 PhotoBooth Processor function code is stated bellow. Notice, how simple it was to implement Cloudinary and also send SMS message, thanks to functions bindings. For full implementation see the Azure DevOps repository
 
+{% tabs %}
+{% tab title="PhotoProcessorFunction" %}
 ```csharp
+[FunctionName("ProcessCapture")]
+        public static async void Run([BlobTrigger("pictures/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob, [SignalR(HubName = "broadcast")]IAsyncCollector<SignalRMessage> signalRMessages, string name,
+            ILogger log)
+        {
+            const string accountSid = "Twilio SID";
+            const string authToken = "Twilio Auth Token";           
 
+            Account account = new Account(
+                "Clouniary Account ID",
+                "Clouniary Account Key",
+                "Clouniary Account Password");
+
+            try
+            {
+                Cloudinary cloudinary = new Cloudinary(account);
+                TwilioClient.Init(accountSid, authToken);
+
+
+                var uploadParams = new ImageUploadParams()
+                {
+                    File = new FileDescription(name, myBlob),
+                    PublicId= name,
+                    EagerTransforms = new List<Transformation>()
+                    {
+                        new Transformation().AspectRatio("0.75").Crop("crop").Chain().Height(600).Crop("scale").Chain().Flags("relative").Height(1.0).Overlay(new Layer().PublicId("overlay-photo")).Width(1.0).Crop("scale")
+                    }
+
+                };
+                var stopwatch = new Stopwatch();
+                stopwatch.Start();
+                
+                var uploadResult = cloudinary.Upload(uploadParams);
+
+                stopwatch.Stop();
+                var elapsed_time = stopwatch.ElapsedMilliseconds;
+                log.LogInformation(elapsed_time.ToString());
+
+                var secureurl = (string)uploadResult.JsonObj["eager"][0]["secure_url"];
+
+                await signalRMessages.AddAsync(new SignalRMessage()
+                {
+                    Target = "notify",
+                    Arguments = new object[] { secureurl }
+                });
+
+                var mediaUrl = new[] {
+                     new Uri(secureurl)
+                  }.ToList();
+
+                var message = MessageResource.Create(
+                    from: new Twilio.Types.PhoneNumber("From Number"),
+                    mediaUrl: mediaUrl,
+                    to: new Twilio.Types.PhoneNumber("To Number")
+                    );
+
+
+                log.LogInformation($"Completed Image Processing");
+
+                log.LogInformation($"Succesfully Transaformed Image:\n Url:{mediaUrl}");
+            }
+            catch (Exception e)
+            {
+
+                log.LogInformation(e.Message);
+            }
+
+            log.LogInformation($"Succesfully processed blob:\n Name:{name} \n Size: {myBlob.Length} Bytes");
+        }
 ```
+{% endtab %}
 
+{% tab title="NegotiateFunction" %}
+```csharp
+[FunctionName("negotiate")]
+        public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "post")]HttpRequest req,
+                                            [SignalRConnectionInfo(HubName = "broadcast")]SignalRConnectionInfo info,
+                                            TraceWriter log)
+        {
+            return info != null
+                ? (ActionResult)new OkObjectResult(info)
+                : new NotFoundObjectResult("Failed to load SignalR Info.");
+        }
+```
+{% endtab %}
+{% endtabs %}
 
-
-
-
-
-
-
-
-
+### 
 
 ## Repository
 
 ## Future Improvements
 
-
-
-
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorryecho 'You got to trust me on this, I saved the world'
-```
-
-
+ Like mentioned above this is a quick proof of concept integrating the power of Azure IoT in the cloud with initial inference running on the intelligent edge device. The Azure IoT has many more features.  
+Using the above API documentation extending the features of this project should be straight forward. One example would be to verify the identity of the person  using Azure Face API
 
