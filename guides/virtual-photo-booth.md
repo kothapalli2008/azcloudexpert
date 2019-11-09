@@ -163,9 +163,7 @@ PhotoBooth Processor function code is stated bellow. Notice, how simple it was t
 {% endtab %}
 {% endtabs %}
 
-### 
 
-## Repository
 
 ## Future Improvements
 
