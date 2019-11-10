@@ -170,3 +170,5 @@ PhotoBooth Processor function code is stated bellow. Notice, how simple it was t
  Like mentioned above this is a quick proof of concept integrating the power of Azure IoT in the cloud with initial inference running on the intelligent edge device. The Azure IoT has many more features.  
 Using the above API documentation extending the features of this project should be straight forward. One example would be to verify the identity of the person  using Azure Face API
 
+
+

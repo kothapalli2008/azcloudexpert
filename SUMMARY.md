@@ -8,6 +8,7 @@
   * [Web Application Deployment in Azure](reference-architectures/web-application-deployment-in-azure.md)
   * [On-Demand DEV/TEST Environment](reference-architectures/on-demand-dev-test-environment.md)
   * [Application Migration to Cloud](reference-architectures/application-migration-to-cloud.md)
+  * [Azure IoT Photo Booth](reference-architectures/azure-iot-photo-booth.md)
   * [Cloud Migration Decision Tree](reference-architectures/cloud-migration-decision-tree.md)
 * [Azure Cloud](azure-cloud/README.md)
   * [Which Azure Region is Right to Deploy Cloud Services?](azure-cloud/which-azure-region-is-right-to-deploy-cloud-services.md)
