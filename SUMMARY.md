@@ -5,6 +5,7 @@
   * [Resume](about/resume.md)
   * [Contact](about/contact.md)
 * [Reference Architectures](reference-architectures/README.md)
+  * [Azure Duarable Functions](reference-architectures/azure-duarable-functions.md)
   * [Web Application Deployment in Azure](reference-architectures/web-application-deployment-in-azure.md)
   * [On-Demand DEV/TEST Environment](reference-architectures/on-demand-dev-test-environment.md)
   * [Application Migration to Cloud](reference-architectures/application-migration-to-cloud.md)
