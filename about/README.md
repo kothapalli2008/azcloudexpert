@@ -8,6 +8,14 @@ Krish is a microsoft certified solution expert \(azure platform & services\) and
 
 ## **Certifications**
 
+{% embed url="https://www.youracclaim.com/badges/aa581e6e-8c1f-4a3b-9f72-7a9991c64e6f/public\_url" %}
+
+{% embed url="https://www.youracclaim.com/badges/50095165-10e3-4510-9888-5558829e3861/public\_url" %}
+
+{% embed url="https://www.youracclaim.com/badges/68135825-f2b0-4626-8738-bc7bd173d370/public\_url" %}
+
+
+
 {% embed url="https://www.youracclaim.com/badges/98cc5d15-ffa2-4618-990c-cd022da9d37d/linked\_in\_profile" caption="MCSE: Cloud Platform and Infrastructure — Certified 2018" %}
 
 {% embed url="https://www.youracclaim.com/badges/f4375af2-b48a-40c6-99ac-0eac3a6fc5be/linked\_in\_profile" caption="Microsoft Certified Trainer 2019-2020" %}
