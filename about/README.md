@@ -1,5 +1,5 @@
 ---
-description: 'Microsoft Certified: Azure Solutions Architect Expert'
+description: Microsoft Certified Azure Solutions Architect Expert
 ---
 
 # About
