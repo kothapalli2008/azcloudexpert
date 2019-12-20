@@ -1,6 +1,6 @@
 # Remote debug your azure function app v2 in Visual Studio 2019
 
-**Sometimes while i am working with function app \(Copy file from on-Premise server to Azure blob storage account\) it works fine on my local machine and when you try to publish it publishes OK, However the function is getting triggered but it doesn't copy the file to  Azure Blob.**
+**Sometimes while i am working with function apps it works fine on my local machine and when you try to publish it publishes OK, However the function is getting triggered but it doesn't perform the action what the function app is suppose to perform.**
 
 Now to debug the function app i did the following:
 
