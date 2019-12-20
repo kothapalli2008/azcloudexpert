@@ -17,6 +17,7 @@
 * [Conferences](conference/README.md)
   * [Twilio Signal 2019 Recap](conference/conferences-1.md)
 * [Guides](guides/README.md)
+  * [Remote debug your azure function app v2 in Visual Studio 2019](guides/remote-debug-your-azure-function-app-v2-in-visual-studio-2019.md)
   * [Setting up Mock API with Azure Function Proxies](guides/setting-up-mock-api-with-azure-function-proxies.md)
   * [Trigger Blue/Green deployment Pipelines with Flic button](guides/trigger-azure-devops-pipelines-with-flic-button.md)
   * [Author ARM Templates with Visual Studio](guides/author-arm-templates-with-visual-studio.md)
