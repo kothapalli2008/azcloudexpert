@@ -23,8 +23,6 @@ description: >-
 
 ## **January 2020**
 
-{% page-ref page="reference-architectures/remote-debug-your-azure-function-app-v2-in-visual-studio-2019.md" %}
-
 ## December 2019
 
 {% page-ref page="reference-architectures/azure-duarable-functions.md" %}
