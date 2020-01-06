@@ -2,7 +2,6 @@
 
 * [Krish Kothapalli](README.md)
 * [About](about/README.md)
-  * [Resume](about/resume.md)
   * [Contact](about/contact.md)
 * [Reference Architectures](reference-architectures/README.md)
   * [Azure Duarable Functions](reference-architectures/azure-duarable-functions.md)
