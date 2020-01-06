@@ -4,6 +4,7 @@
 * [About](about/README.md)
   * [Contact](about/contact.md)
 * [Reference Architectures](reference-architectures/README.md)
+  * [Remote debug your azure function app v2 in Visual Studio 2019](reference-architectures/remote-debug-your-azure-function-app-v2-in-visual-studio-2019.md)
   * [Azure Duarable Functions](reference-architectures/azure-duarable-functions.md)
   * [Azure IoT Photo Booth](reference-architectures/azure-iot-photo-booth.md)
   * [Cloud Migration Decision Tree](reference-architectures/cloud-migration-decision-tree.md)

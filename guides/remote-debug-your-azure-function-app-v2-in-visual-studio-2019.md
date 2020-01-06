@@ -17,7 +17,7 @@ In this step, you will publish the Function App from the starter project in Visu
 1. Navigate to the **FileProcessor** project using the Solution Explorer of Visual Studio
 2. Right-click the **FileProcessor** project and select Publish… from the context menu.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -27,7 +27,7 @@ In the App Service form, select your **Subscription**, select **Resource Group**
 
 After you select the Function App, select **OK**.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 Watch the Output window in Visual Studio as the Function App publishes. When it is finished, you should see a message that says, “**Publish Succeeded.**”
 
@@ -39,13 +39,13 @@ Open the  resource group, then select the Azure Function App to which you just p
 
 Within Visual Studio open the Cloud Explorer, expand the Web Apps, right-click the Web App you want to attach to and click Attach Debugger, as shown in Figure 1.  You can download Cloud Explorer [here ](https://visualstudiogallery.msdn.microsoft.com/84e83a7c-9606-4f9f-83dd-0f6182f13add)or install it from within Visual Studio by selecting Tools -&gt; Extensions and Updates..., then search for Cloud Explorer.
 
-![Attach a remote debugger to a Microsoft Function App](../.gitbook/assets/image%20%289%29.png)
+![Attach a remote debugger to a Microsoft Function App](../.gitbook/assets/image%20%2813%29.png)
 
 If you have not already enabled the remote debugging application setting, it will be done for you when you attach the debugger for the first time. You can see the setting in the azure portal as shown below
 
 .
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 
 
@@ -60,23 +60,23 @@ Many times, this won’t work or you get an error. you can works this by attachi
 *  Go to the **Debug** menu and select **Attach to Process…**
 * \*\*\*\*
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 * Enter the url + port number of your function app in the Connection target field like this: [https://fileprocessorappserviceplan.azurewebsites.net](https://fileprocessorappserviceplan.azurewebsites.net/):4024
 * You can find the right port number in this [document](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugger-port-assignments?view=vs-2017). In my example it is the port number for Visual Studio 2017. For 2019 it is 4024.
 * When prompt to authenticate, you can do this with the publish profile of your Function App. Download the publish profile by hitting the **Get publish profile** button in the Azure portal. Use the **userName** and **userPWD** of the publish profile.
 * 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 * Because it is a .NET Core application, we need to set **Attach to** to **Managed \(CoreCLR\) code**. You can do this with the select button. 
 * Last thing is to select the **w3wp.exe** process and hit **Attach**.
 * Let Visual Studio download all the files needed en you can debug your application as if you’re working locally.
 * 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 Once confirmed move on and start debugging.
 
@@ -92,17 +92,17 @@ The Version of the Dlls should match with the local version.
 
 * set a break point to troubleshoot the code 
 * 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 * Navigate back to the browser where your Fucntion App is displayed, the example code Function App looks like this:
 * 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ## Execute the process which is rendering the exception, performing slow or in an unexpected manner
 
 Just like when debugging locally, as I have set a break point on the Function App. Thats it.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 Happy Coding !!
 
