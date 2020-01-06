@@ -25,7 +25,13 @@ description: >-
 
 {% page-ref page="reference-architectures/remote-debug-your-azure-function-app-v2-in-visual-studio-2019.md" %}
 
+## December 2019
+
+{% page-ref page="reference-architectures/azure-duarable-functions.md" %}
+
 ## **November 2019**
+
+{% page-ref page="reference-architectures/azure-iot-photo-booth.md" %}
 
 {% embed url="https://www.youracclaim.com/badges/aa581e6e-8c1f-4a3b-9f72-7a9991c64e6f/public\_url" %}
 
