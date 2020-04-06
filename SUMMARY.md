@@ -22,4 +22,6 @@
   * [Azure DevTest Labs at Enterprise Scale](azure-cloud/azure-devtest-labs-at-enterprise-scale.md)
 * [Conferences](conference/README.md)
   * [Twilio Signal 2019 Recap](conference/conferences-1.md)
+* [Speaking](speaking/README.md)
+  * [Global Azure 2020](speaking/global-azure-2020.md)
 
