@@ -17,7 +17,7 @@ description: >-
 
 {% page-ref page="guides/" %}
 
-{% page-ref page="./" %}
+{% page-ref page="speaking/" %}
 
 {% page-ref page="about/contact.md" %}
 
